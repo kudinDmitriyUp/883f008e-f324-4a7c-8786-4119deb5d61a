@@ -1,4 +1,4 @@
-"use client"
+"use client";
 
 import { ThemeProvider } from "@/providers/themeProvider/ThemeProvider";
 import NavbarStyleMinimal from '@/components/navbar/NavbarStyleMinimal';
@@ -24,7 +24,6 @@ export default function LandingPage() {
       cardStyle="glass-elevated"
       primaryButtonStyle="radial-glow"
       secondaryButtonStyle="glass"
-      showBlurBottom={false}
     >
       <div id="nav" data-section="nav">
         <NavbarStyleMinimal
