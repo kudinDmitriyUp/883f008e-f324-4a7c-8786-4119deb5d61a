@@ -24,8 +24,6 @@ export default function LandingPage() {
       cardStyle="glass-elevated"
       primaryButtonStyle="radial-glow"
       secondaryButtonStyle="glass"
-      headingFontWeight="semibold"
-      showBlurBottom={false}
     >
       <div id="nav" data-section="nav">
         <NavbarStyleMinimal
